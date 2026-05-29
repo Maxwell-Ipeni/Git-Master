@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Daily Workflow
+## Daily Workflow
 
 ```bash
 # Start a new project
@@ -43,7 +43,7 @@ git diff --stat           # Summary only
 
 ---
 
-## 🌿 Branching
+## Branching
 
 ```bash
 # List & manage branches
@@ -74,7 +74,7 @@ git rebase --abort          # Cancel rebase
 
 ---
 
-## 🔄 Remote Operations
+## Remote Operations
 
 ```bash
 # Remotes
@@ -97,7 +97,7 @@ git push --force-with-lease    # Safer force
 
 ---
 
-## ⏪ Undo & Recovery
+## Undo & Recovery
 
 ```bash
 # Unstage
@@ -125,7 +125,7 @@ git revert HEAD~3..HEAD     # Revert range
 
 ---
 
-## 🗃️ Stashing
+## Stashing
 
 ```bash
 git stash                  # Save work in progress
@@ -143,7 +143,7 @@ git stash branch <name>   # Create branch from stash
 
 ---
 
-## 🔍 Debugging & Inspection
+## Debugging & Inspection
 
 ```bash
 # Who changed what
@@ -168,7 +168,7 @@ git show <commit> --stat  # Summary
 
 ---
 
-## 🏷️ Tags
+## Tags
 
 ```bash
 git tag                    # List
@@ -185,7 +185,7 @@ git push origin :refs/tags/<tag>  # Delete remote
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ```bash
 # Identity
@@ -212,7 +212,7 @@ git config user.name           # Specific value
 
 ---
 
-## 🔧 Advanced
+## Advanced
 
 ```bash
 # Worktree (multiple directories)
@@ -242,7 +242,7 @@ git clean -fdx            # Remove all
 
 ---
 
-## 🆘 Emergency Recovery
+## Emergency Recovery
 
 ```bash
 # Lost commits? Check reflog
@@ -262,7 +262,7 @@ git log --walk-reflogs
 
 ---
 
-## 💡 Pro Tips
+## Pro Tips
 
 ```bash
 # Better log output
@@ -287,7 +287,7 @@ git log main ^feature  # commits in main not in feature
 
 ---
 
-## 📋 Quick Decision Chart
+## Quick Decision Chart
 
 | Need | Command |
 |------|---------|
@@ -304,7 +304,7 @@ git log main ^feature  # commits in main not in feature
 
 ---
 
-## 🔗 Common Remote URLs
+## Common Remote URLs
 
 ```bash
 # GitHub
